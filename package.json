@@ -1,6 +1,6 @@
 {
   "name": "altycoon-engine-workspace",
-  "private": true,
+  "private": false,
   "type": "module",
   "version": "0.1.0",
   "workspaces": [
