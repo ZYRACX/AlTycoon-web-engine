@@ -1,4 +1,4 @@
-import { GameSystem, fail } from '@game-engine/core';
+import { GameSystem, fail } from '@soumya/game-engine-core';
 const positive = (quantity) => {
   if (!Number.isFinite(quantity) || quantity <= 0)
     fail('INVALID_QUANTITY', 'Quantity must be greater than zero', { quantity });

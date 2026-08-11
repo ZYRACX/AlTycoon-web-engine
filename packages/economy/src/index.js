@@ -1,4 +1,4 @@
-import { GameSystem, fail } from '@game-engine/core';
+import { GameSystem, fail } from '@soumya/game-engine-core';
 const validAmount = (amount) => {
   if (!Number.isFinite(amount) || amount <= 0)
     fail('INVALID_AMOUNT', 'Amount must be greater than zero', { amount });

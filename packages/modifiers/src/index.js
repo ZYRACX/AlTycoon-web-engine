@@ -1,4 +1,4 @@
-import { GameSystem, fail } from '@game-engine/core';
+import { GameSystem, fail } from '@soumya/game-engine-core';
 export const resolveModifiers = (base, modifiers = []) =>
   modifiers.reduce((value, modifier) => {
     switch (modifier.operation) {

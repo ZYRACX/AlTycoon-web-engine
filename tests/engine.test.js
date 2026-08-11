@@ -1,11 +1,11 @@
 import { describe, expect, it, beforeEach } from 'vitest';
-import { GameDefinition, GameEngine, MockClock, EngineError } from '@game-engine/core';
-import { InMemoryPersistence } from '@game-engine/persistence';
-import { InventorySystem } from '@game-engine/inventory';
-import { EconomySystem } from '@game-engine/economy';
-import { ProductionSystem, calculateOfflineProduction } from '@game-engine/production';
-import { SkillSystem } from '@game-engine/progression';
-import { resolveModifiers } from '@game-engine/modifiers';
+import { GameDefinition, GameEngine, MockClock, EngineError } from '@soumya/game-engine-core';
+import { InMemoryPersistence } from '@soumya/game-engine-persistence';
+import { InventorySystem } from '@soumya/game-engine-inventory';
+import { EconomySystem } from '@soumya/game-engine-economy';
+import { ProductionSystem, calculateOfflineProduction } from '@soumya/game-engine-production';
+import { SkillSystem } from '@soumya/game-engine-progression';
+import { resolveModifiers } from '@soumya/game-engine-modifiers';
 const definition = new GameDefinition({
   currencies: [{ id: 'credit', name: 'Credit' }],
   items: [

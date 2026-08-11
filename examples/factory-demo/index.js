@@ -1,9 +1,9 @@
-import { GameDefinition, GameEngine, SystemClock } from '@game-engine/core';
-import { InMemoryPersistence } from '@game-engine/persistence';
-import { InventorySystem } from '@game-engine/inventory';
-import { EconomySystem } from '@game-engine/economy';
-import { ProductionSystem } from '@game-engine/production';
-import { SkillSystem } from '@game-engine/progression';
+import { GameDefinition, GameEngine, SystemClock } from '@soumya/game-engine-core';
+import { InMemoryPersistence } from '@soumya/game-engine-persistence';
+import { InventorySystem } from '@soumya/game-engine-inventory';
+import { EconomySystem } from '@soumya/game-engine-economy';
+import { ProductionSystem } from '@soumya/game-engine-production';
+import { SkillSystem } from '@soumya/game-engine-progression';
 import { factoryDefinition } from './definition.js';
 export const createFactoryDemo = async () => {
   const persistence = new InMemoryPersistence();

@@ -1,5 +1,5 @@
 {
-  "name": "altycoon-engine",
+  "name": "altycoon-engine-workspace",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -13,13 +13,13 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
-    "@game-engine/core": "workspace:*",
-    "@game-engine/economy": "workspace:*",
-    "@game-engine/inventory": "workspace:*",
-    "@game-engine/modifiers": "workspace:*",
-    "@game-engine/persistence": "workspace:*",
-    "@game-engine/production": "workspace:*",
-    "@game-engine/progression": "workspace:*",
+    "@soumya/game-engine-core": "workspace:*",
+    "@soumya/game-engine-economy": "workspace:*",
+    "@soumya/game-engine-inventory": "workspace:*",
+    "@soumya/game-engine-modifiers": "workspace:*",
+    "@soumya/game-engine-persistence": "workspace:*",
+    "@soumya/game-engine-production": "workspace:*",
+    "@soumya/game-engine-progression": "workspace:*",
     "eslint": "^9.0.0",
     "prettier": "^3.0.0",
     "vitest": "^3.0.0"

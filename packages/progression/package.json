@@ -1,9 +1,9 @@
 {
-  "name": "@game-engine/progression",
+  "name": "@soumya/game-engine-progression",
   "version": "0.1.0",
   "type": "module",
   "exports": "./src/index.js",
   "dependencies": {
-    "@game-engine/core": "workspace:*"
+    "@soumya/game-engine-core": "workspace:*"
   }
 }
