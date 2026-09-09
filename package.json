@@ -23,6 +23,6 @@
     "@soumya/game-engine-progression": "workspace:*",
     "eslint": "^9.0.0",
     "prettier": "^3.0.0",
-    "vitest": "^3.0.0"
+    "vitest": "^4.1.11"
   }
 }
